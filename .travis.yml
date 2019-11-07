@@ -6,6 +6,7 @@ matrix:
   - env: sys=centos dir=components/packaging/rpm ftp_dir=rpm bin_dir=components/packaging/rpm/rpmbuild/RPMS/ppc64le/
   
 os: linux-ppc64le
+arch: ppc64le
 sudo: required
 services: docker
 
